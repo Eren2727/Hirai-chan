@@ -14,7 +14,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName('setup')
-                .setDescription('Set up the welcome message')
+                .setDescription('Giriş Mesajını Ayarlar.')
                 .addChannelOption(option =>
                     option.setName('channel')
                         .setDescription('The channel to send welcome messages to')
