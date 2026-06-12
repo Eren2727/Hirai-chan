@@ -6,7 +6,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
         .setName('cases')
-        .setDescription('View moderation cases and audit logs')
+        .setDescription('Moderasyon geçmişini ve denetim kayıtlarını görüntüler.')
         .setDefaultMemberPermissions(PermissionFlagsBits.ViewAuditLog)
         .setDMPermission(false)
         .addStringOption(option =>
