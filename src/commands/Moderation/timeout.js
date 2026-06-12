@@ -18,7 +18,7 @@ const durationChoices = [
 export default {
     data: new SlashCommandBuilder()
         .setName("timeout")
-        .setDescription("Timeout a user for a specific duration.")
+        .setDescription("Kullanıcıya zaman aşımı uygular.")
         .addUserOption((option) =>
             option
                 .setName("target")
