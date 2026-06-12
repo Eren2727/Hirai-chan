@@ -59,7 +59,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName("view")
-                .setDescription("View notes for a user")
+                .setDescription("Seçilen kullanıcının notlarını görüntüler.")
                 .addUserOption(option =>
                     option
                         .setName("target")
