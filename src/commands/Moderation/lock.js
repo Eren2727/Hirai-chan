@@ -9,7 +9,7 @@ export default {
     data: new SlashCommandBuilder()
     .setName("lock")
     .setDescription(
-      "Locks the current channel (prevents @everyone from sending messages).",
+      "Kanalı Kilitler.",
     )
 .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),
   category: "moderation",
