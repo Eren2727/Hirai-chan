@@ -22,11 +22,11 @@ const BUG_REPORT_BUTTON_ID = "help-bug-report";
 const HELP_MENU_TIMEOUT_MS = 5 * 60 * 1000;
 
 const CATEGORY_ICONS = {
-    Ana_Komutlar: "ℹ️",
-    Moderasyon: "🛡️",
-    Ekonomi: "💰",
-    Eğlence: "🎮",
-    Seviye: "📊",
+    Core: "ℹ️",
+    Moderation: "🛡️",
+    Economy: "💰",
+    Fun: "🎮",
+    Leveling: "📊",
     Karışık: "🔧",
     Ticket: "🎫",
     Karşılama: "👋",
