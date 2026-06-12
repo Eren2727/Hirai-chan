@@ -32,11 +32,11 @@ const CATEGORY_ICONS = {
     Karşılama: "👋",
     Çekiliş: "🎉",
     Sayaç: "🔢",
-    Araçlar: "🛠️",
-    Arama: "🔍",
-    Tepki_Rolleri: "🎭",
-    Topluluk: "👥",
-    Doğum_Günü: "🎂",
+    Tools: "🛠️",
+    Search: "🔍",
+    Reaction_roles: "🎭",
+    Community: "👥",
+    Birthday: "🎂",
     Config: "⚙️",
 };
 
