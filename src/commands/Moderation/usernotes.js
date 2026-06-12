@@ -88,7 +88,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName("clear")
-                .setDescription("Clear all notes for a user")
+                .setDescription("Seçilen kullanıcının tüm notlarını temizler.")
                 .addUserOption(option =>
                     option
                         .setName("target")
