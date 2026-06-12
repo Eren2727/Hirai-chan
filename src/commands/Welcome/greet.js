@@ -13,7 +13,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName('dashboard')
-                .setDescription('Open the welcome & goodbye configuration dashboard'),
+                .setDescription('Giriş ve Çıkış Mesajı Ayarlama Menüsünü Açar.'),
         ),
 
     async execute(interaction, config, client) {
