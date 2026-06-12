@@ -87,7 +87,7 @@ export default {
 
             const condition = getWeatherDescription(weatherCode);
 
-            const embed = createEmbed({ title: `🌎 Weather in ${cityDisplay}, ${country}`, description: condition.description })
+            const embed = createEmbed({ title: `🌎 ${cityDisplay}, ${country} için Hava Durumu.`, description: condition.description })
                 .addFields(
                     {
                         name: "🌡️ Temperature",
