@@ -9,7 +9,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
     .setName("purge")
-    .setDescription("Delete a specific amount of messages")
+    .setDescription("Belirli sayıda mesajı silmeye yarar.")
     .addIntegerOption((option) =>
       option
         .setName("amount")
