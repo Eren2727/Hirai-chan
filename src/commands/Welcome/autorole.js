@@ -21,7 +21,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName('add')
-                .setDescription('Add a role to be automatically assigned to new members')
+                .setDescription('Sunucuya Katılan Üyelere Otomatik Olarak Belirli Bir Rolü Vermeyi Sağlar.')
                 .addRoleOption(option =>
                     option.setName('role')
                         .setDescription('The role to add')
@@ -29,7 +29,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName('remove')
-                .setDescription('Remove a role from auto-assignment')
+                .setDescription('Sunucuya Girildiğinde Otomatik Olarak Verilen Rolü Kaldırır.')
                 .addRoleOption(option =>
                     option.setName('role')
                         .setDescription('The role to remove')
@@ -37,7 +37,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName('list')
-                .setDescription('List all auto-assigned roles')),
+                .setDescription('Otomatik Verilen Tüm Rolleri Görüntüler.')),
 
     async execute(interaction) {
         const deferSuccess = await InteractionHelper.safeDefer(interaction);
