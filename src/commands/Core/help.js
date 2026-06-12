@@ -81,78 +81,78 @@ export async function createInitialHelpMenu(client) {
 
     embed.addFields(
         {
-            name: "🛡️ **Moderation**",
-            value: "Server moderation, user management, and enforcement tools",
+            name: "🛡️ **Moderasyon**",
+            value: "Sunucu denetimi, kullanıcı yönetimi ve uygulama araçları",
             inline: true
         },
         {
-            name: "💰 **Economy**",
-            value: "Currency system, shops, and virtual economy",
+            name: "💰 **Ekonomi**",
+            value: "Para sistemi ve mağaza",
             inline: true
         },
         {
-            name: "🎮 **Fun**",
-            value: "Games, entertainment, and interactive commands",
+            name: "🎮 **Eğlence**",
+            value: "Oyunlar, eğlence ve etkileşimli komutlar",
             inline: true
         },
         {
-            name: "📊 **Leveling**",
-            value: "User levels, XP system, and progression tracking",
+            name: "📊 **Seviye**",
+            value: "Kullanıcı seviyeleri, XP sistemi ve ilerleme takibi",
             inline: true
         },
         {
-            name: "🎫 **Tickets**",
-            value: "Support ticket system for server management",
+            name: "🎫 **Ticket**",
+            value: "Sunucu yönetimi için destek talebi sistemi",
             inline: true
         },
         {
-            name: "🎉 **Giveaways**",
-            value: "Automated giveaway management and distribution",
+            name: "🎉 **Çekiliş**",
+            value: "Otomatik ve zamanlayıcılı çekiliş başlatma sistemi",
             inline: true
         },
         {
-            name: "👋 **Welcome**",
-            value: "Member welcome messages and onboarding",
+            name: "👋 **Karşılama**",
+            value: "Üye karşılama mesajları ve yeni üyelere yönelik oryantasyon programı",
             inline: true
         },
         {
-            name: "🎂 **Birthdays**",
-            value: "Birthday tracking and celebration features",
+            name: "🎂 **Doğum Günü**",
+            value: "Doğum günü takibi ve kutlama özellikleri",
             inline: true
         },
         {
-            name: "👥 **Community**",
-            value: "Community tools, applications, and member engagement",
+            name: "👥 **Topluluk**",
+            value: "Topluluk araçları, uygulamaları ve üye etkileşimi",
             inline: true
         },
         {
             name: "⚙️ **Config**",
-            value: "Server and bot configuration management commands",
+            value: "Sunucu ve bot yapılandırma yönetimi komutları",
             inline: true
         },
         {
-            name: "🔢 **Counter**",
-            value: "Live counter channel setup and counter controls",
+            name: "🔢 **Sayaç**",
+            value: "Canlı sayaç kanalı kurulumu ve sayaç kontrolleri",
             inline: true
         },
         {
-            name: "🎙️ **Join to Create**",
-            value: "Dynamic voice channel creation and management",
+            name: "🎙️ **Özel ses kanalı**",
+            value: "Özel ses kanalı oluşturma ve yönetimi",
             inline: true
         },
         {
-            name: "🎭 **Reaction Roles**",
-            value: "Self-assignable roles using reaction-role systems",
+            name: "🎭 **Tepki Rolleri**",
+            value: "Tepki aracılığı ile rol atama sistemi",
             inline: true
         },
         {
-            name: "✅ **Verification**",
-            value: "Member verification workflows and access gating",
+            name: "✅ **Doğrulama**",
+            value: "Üye doğrulama ve bot erişim kısıtlamaları",
             inline: true
         },
         {
-            name: "🔧 **Utilities**",
-            value: "Useful tools and server utilities",
+            name: "🔧 **Araç Gereç**",
+            value: "Faydalı araçlar ve sunucu yardımcı programları",
             inline: true
         }
     );
