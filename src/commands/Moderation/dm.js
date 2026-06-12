@@ -8,7 +8,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
         .setName("dm")
-        .setDescription("Send a direct message to a user (Staff only)")
+        .setDescription("Kullanıcıya DM gönderir (Yetkililere özel).")
         .addUserOption(option =>
             option
                 .setName("user")
