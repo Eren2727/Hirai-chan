@@ -14,7 +14,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName('setup')
-                .setDescription('Set up the goodbye message')
+                .setDescription('Sunucudan Çıkış Mesajı Ayarlar.')
                 .addChannelOption(option =>
                     option.setName('channel')
                         .setDescription('The channel to send goodbye messages to')
