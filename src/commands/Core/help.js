@@ -75,7 +75,7 @@ export async function createInitialHelpMenu(client) {
     const botName = client?.user?.username || "Bot";
     const embed = createEmbed({ 
         title: `🤖 ${botName} Help Center`,
-        description: "Your all-in-one Discord companion for moderation, economy, fun, and server management.",
+        description: "Hiraisen sunucusunun özel herşey dahil Discord botu.",
         color: 'primary'
     });
 
