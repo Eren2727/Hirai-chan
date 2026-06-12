@@ -8,7 +8,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
         .setName("warn")
-        .setDescription("Warn a user")
+        .setDescription("Belirli bir kullanıcıyı uyarmaya yarar.")
         .addUserOption((o) =>
             o
                 .setName("target")
