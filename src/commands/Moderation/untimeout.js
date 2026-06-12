@@ -8,7 +8,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
         .setName("untimeout")
-        .setDescription("Remove timeout from a user")
+        .setDescription("Kullanıcıdan zaman aşımını kaldırır.")
         .addUserOption((option) =>
             option
                 .setName("target")
