@@ -30,7 +30,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName("add")
-                .setDescription("Add a note to a user")
+                .setDescription("Kullanıcıya not ekler.")
                 .addUserOption(option =>
                     option
                         .setName("target")
@@ -70,7 +70,7 @@ export default {
         .addSubcommand(subcommand =>
             subcommand
                 .setName("remove")
-                .setDescription("Remove a specific note from a user")
+                .setDescription("Bir üyeden belirli bir notu kaldırmaya yarar.")
                 .addUserOption(option =>
                     option
                         .setName("target")
